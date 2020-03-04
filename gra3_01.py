@@ -61,8 +61,8 @@ elif wybor == str('2'):
         mocRazyLiczbat9 = int(liczbat9)*float(t9)
         zostalot9=(ilepkt-mocRazyLiczbat8)
         print('Moc {} jednostek t9 wynosi {}'.format(int(liczbat9), mocRazyLiczbat9 ))
-        zostalot9 = zostalot9/float(t9)
-        potrzebujeszt9 = zostalot9 - mocRazyLiczbat9
+        zostalo_monit_t9 = zostalot9/float(t9)
+        potrzebujeszt9 = zostalo_monit_t9 - mocRazyLiczbat9
         print('Potrzebujesz dodatkowo jednostek T9: ' + str(potrzebujeszt9))
 
 
@@ -74,8 +74,8 @@ elif wybor == str('2'):
         mocRazyLiczbat10 = int(liczbat10) * float(t10)
         zostalot10 = (ilepkt - mocRazyLiczbat9)
         print('Moc {} jednostek t10 wynosi {}'.format(int(liczbat10), mocRazyLiczbat10))
-        zostalot10 = zostalot10 / float(t10)
-        potrzebujeszt10 = zostalot10 - mocRazyLiczbat10 -mocRazyLiczbat8
+        zostalo_monitt10 = zostalot10 / float(t10)
+        potrzebujeszt10 = zostalo_monitt10 - mocRazyLiczbat10 -mocRazyLiczbat8
         print('Potrzebujesz dodatkowo jednostek T10: ' + str(potrzebujeszt10))
 
 
@@ -87,8 +87,8 @@ elif wybor == str('2'):
         mocRazyLiczbat11 = int(liczbat11) * float(t11)
         zostalot11 = (ilepkt - mocRazyLiczbat10)
         print('Moc {} jednostek t11 wynosi {}'.format(int(liczbat11), mocRazyLiczbat11))
-        zostalot11 = zostalot11 / float(t11)
-        potrzebujeszt11 = zostalot11 - mocRazyLiczbat11 -mocRazyLiczbat8 -mocRazyLiczbat9
+        zostalo_monitt11 = zostalot11 / float(t11)
+        potrzebujeszt11 = zostalo_monitt11 - mocRazyLiczbat11 -mocRazyLiczbat8 -mocRazyLiczbat9
         print('Potrzebujesz dodatkowo jednostek T11: ' + str(potrzebujeszt11))
         input("wyjscie")
 
