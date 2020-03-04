@@ -95,4 +95,4 @@ elif wybor == str('2'):
     jednostki()
 
 elif wybor == str('3'):
-    input('wyjscie->')
+    input('wyjscie-><-')
