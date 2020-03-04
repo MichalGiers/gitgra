@@ -1,0 +1,207 @@
+    1  ?
+    2  help
+    3  git log
+    4  git init
+    5  cd..
+    6  dir
+    7  dir/w
+    8  cd Desktop
+    9  cd,,
+   10  dir
+   11  cd Desktop
+   12  dir
+   13  cd ..
+   14  dir
+   15  cd Users
+   16  dir/w
+   17  dir
+   18  cd ..
+   19  dir
+   20  cd gosc
+   21  dir
+   22  cd Desktop/
+   23  dir
+   24  cd druk
+   25  dir
+   26  git log
+   27  git fetch
+   28  git push -u origin master
+   29  git remote -v
+   30  git push --set-upstream origin master
+   31  git pull
+   32  git log
+   33  git remote -v
+   34  cd ..
+   35   cd ..
+   36  cd Users/
+   37  cd gosc/
+   38  cd Desktop/
+   39  cd drukarki/
+   40  init
+   41  git init
+   42  gi tremote -v
+   43  git remote -v
+   44  git log
+   45  git status
+   46  git add drukarki.txt 
+   47  git status 
+   48  git commit -a -m "dodanie pliku drukarki"
+   49  git status
+   50  git log
+   51  git remote add origin http://github/MichalGiers/druk.git
+   52  git remote -v
+   53  git remote add origin http://github/MichalGiers/drukarki
+   54  git remote -v
+   55  git push origin master
+   56  git push -u origin master
+   57  git checkout -B opisDukarki
+   58  git log
+   59  git status
+   60  git commit -a -m "dodany 4 punkt"
+   61  git log
+   62  git push origin opisDukarki 
+   63  git push --set-upstream origin master
+   64  git push -u origin master
+   65  git push origin HEAD:opisDrukarki
+   66  git branch
+   67  git branch -v
+   68  $  git push --set-upstream origin systemDebian
+   69  $  git push --set-upstream origin systemDebian
+   70  $  git push --set-upstream origin systemDebian
+   71  git push --set-upstream origin opisDukarki 
+   72  gir branch -v
+   73  git config --list
+   74  git remote
+   75  git remote add druk http://github.com/MichalGiers/druk
+   76  git remote -v
+   77  git fetch druk
+   78  git push origin master
+   79  git --config -global
+   80  git --config -global --html-path
+   81  git --html-path
+   82  dir
+   83  cd ..
+   84  dir
+   85  cd gosc
+   86  cd Desktop/
+   87  cd test/
+   88  dir
+   89  init
+   90  git init
+   91  dir
+   92  git log
+   93  git status
+   94  git add .
+   95  git status
+   96  git commit -a -m "my first repo"
+   97  git log
+   98  git remote add origin http://github.com/MichalGiers/vimcolors.git
+   99  git push -u origin master
+  100  git remote add origin http://github.com/MichalGiers/vimcolors.git
+  101  git push -u origin master
+  102  git push -f origin master
+  103  curl -u<user_name> \ -H "Content-Type: text/document" \ -d ' {"name":"<druk>"}' http://api.github.com/MichalGiers/user/repos
+  104  curl -u<your_username> \ -H "Content-Type: text/document" \ -d ' {"name":"<druk>"}' http://api.github.com/MichalGiers/user/repos
+  105  curl -u <MichalGiers> \ -H "Content-Type: text/document" \ -d ' {"name":"<druk>"}' http://api.github.com/MichalGiers/user/repos
+  106  git config
+  107  git config--global user.name
+  108  git config--global user.name "michal"
+  109  git config --global user.name "michal"
+  110  git config --global user.email michalgiers@gmail.com
+  111  git push -f origin master
+  112  git remote add origin http://github.com/MichalGiers/vimcolors.git
+  113  git push -f origin master
+  114  git clone http://github.com/MichlGiers/druk
+  115  git remote add origin http://github.com/MichalGiers/druk
+  116  git remote add origin http://github.com/MichalGiers/druk.git
+  117  git push -u origin master
+  118  git remote add origin http://github.com/MichalGiers/druk.git
+  119  git remote add origin http://github.com/MichalGiers/druk
+  120  git remote add origin http://github.com/MichalGiers/druk/
+  121  git log
+  122  git push -u origin master
+  123  ls
+  124  ls -la
+  125  ls 
+  126   --help
+  127  --help
+  128  -h
+  129  man
+  130  git
+  131  init
+  132  git init
+  133  git remote add origin https://github.com/MichalGiers/gitgra.git
+  134  git push -u origin master
+  135  ls
+  136  git add .
+  137  git log
+  138  git status
+  139  git commit
+  140  git status
+  141  git log
+  142  git push -u origin master
+  143  git checkout -b tipfix
+  144  git branch
+  145  ls
+  146  git log
+  147  git log
+  148  git status
+  149  git diff master
+  150  git add gra3_01.py 
+  151  git log
+  152  git status
+  153  git diff master
+  154  git commit
+  155  gi log
+  156  git status
+  157  git log
+  158  git diff
+  159  git diff master
+  160  git branch
+  161  git checkout master
+  162  git branch
+  163  git checkout tipfix
+  164  git branch
+  165  git diff master
+  166  git log
+  167* git push -u giorigin master
+  168  git branch
+  169  git -v
+  170  git -v master
+  171  git remote-v
+  172  git push
+  173  git push --set-upstream origin tipfix
+  174  git push --setupupstream origin master
+  175  git push --setup-upstream origin master
+  176  git push --set-upstream origin master
+  177  git branch
+  178  git diff master
+  179  git checkout master
+  180  git branch
+  181  git checkout tipfix
+  182  git branch
+  183  git checkout master
+  184  git checkout tipfix
+  185  git log
+  186  git branch
+  187  git status
+  188  git log
+  189  git diff master
+  190  git commit
+  191  git add
+  192  git add gra3_01.py 
+  193  git log
+  194  git checkout
+  195  gir status
+  196  git status
+  197  git commit
+  198  git log
+  199  git diff master
+  200  history
+  201  git history
+  202  git history | tee
+  203  history | tee
+  204  nano
+  205  touch historiagit
+  206  ls
+  207  history | tee > historiagit
