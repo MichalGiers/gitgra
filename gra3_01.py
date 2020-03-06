@@ -62,20 +62,21 @@ elif wybor == str('2'):
         zostalot9=(ilepkt-mocRazyLiczbat8)
         print('Moc {} jednostek t9 wynosi {}'.format(int(liczbat9), mocRazyLiczbat9 ))
         zostalo_monit_t9 = zostalot9 #/float(t9)
-        potrzebujeszt9 = zostalo_monit_t9 - mocRazyLiczbat9
+        potrzebujeszt9 = (zostalo_monit_t9 - mocRazyLiczbat9)/float(t9)
         print('Potrzebujesz dodatkowo jednostek T9: ' + str(potrzebujeszt9))
 
 
         t10 = input('\nile jedna jednostka T10 daje pkt: ')
         wynikt10 = ilepkt/float(t10)
         print('potrzebujesz tylko T10: ' + str(wynikt10))
-        print('Aby osiagnac {} pkt. potrzebujesz {} jednostek T10: '.format((ilepkt-mocRazyLiczbat8-mocRazyLiczbat9), (ilepkt-mocRazyLiczbat8-mocRazyLiczbat9)/float(t10)))
+        wymaganet10=(ilepkt-mocRazyLiczbat8-mocRazyLiczbat9)/float(t10)
+        print('Aby osiagnac {} pkt. potrzebujesz {} jednostek T10: '.format((ilepkt-mocRazyLiczbat8-mocRazyLiczbat9), wymaganet10))
         liczbat10 = input('Liczba jednostek t10: ')
         mocRazyLiczbat10 = int(liczbat10) * float(t10)
         zostalot10 = (ilepkt - mocRazyLiczbat9)
         print('Moc {} jednostek t10 wynosi {}'.format(int(liczbat10), mocRazyLiczbat10))
         zostalo_monitt10 = zostalot10 #/ float(t10)
-        potrzebujeszt10 = zostalo_monitt10 - mocRazyLiczbat10 -mocRazyLiczbat8
+        potrzebujeszt10 = (zostalo_monitt10 - mocRazyLiczbat10 -mocRazyLiczbat8)/ float(t10)
         print('Potrzebujesz dodatkowo jednostek T10: ' + str(potrzebujeszt10))
 
 
@@ -88,7 +89,7 @@ elif wybor == str('2'):
         zostalot11 = (ilepkt - mocRazyLiczbat10)
         print('Moc {} jednostek t11 wynosi {}'.format(int(liczbat11), mocRazyLiczbat11))
         zostalo_monitt11 = zostalot11 # / float(t11)
-        potrzebujeszt11 = zostalo_monitt11 - mocRazyLiczbat11 -mocRazyLiczbat8 -mocRazyLiczbat9
+        potrzebujeszt11 = (zostalo_monitt11 - mocRazyLiczbat11 -mocRazyLiczbat8 -mocRazyLiczbat9)/ float(t11)
         print('Potrzebujesz dodatkowo jednostek T11: ' + str(potrzebujeszt11))
         input("wyjscie")
 
