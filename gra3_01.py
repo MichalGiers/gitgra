@@ -1,7 +1,7 @@
 
 
 
-print("co chcesz zrobic?\n 1) Dodać czas\n 2) Oblicz ile jednostek T zabić\n 3) Dodatkowa funkcja")
+print("co chcesz zrobic?\n 1) Dodać czas\n 2) Oblicz ile jednostek T zabić\n 3) Oblezenia miasta")
 wybor= input()
 
 if wybor == str('1'):
@@ -52,6 +52,9 @@ elif wybor == str('2'):
             t8 = input('ile jedna jednostka T8 daje pkt: ')
             wynikt8 = ilepkt/float(t8)
             print('potrzebujesz tylko T8: ' + str(wynikt8))
+            ilebaz = input('ile baz: ')
+            ile_jednostek_z_bazy = (float(wynikt8)/int(ilebaz))
+            print('z kazdej bazy potrzebujesz {} jednostek t8'.format (ile_jednostek_z_bazy))
             liczbat8 = input('Liczba jednostek t8: ')
             mocRazyLiczbat8 = int(liczbat8)*float(t8)
             print('Moc {} jednostek t8 wynosi {}'.format(int(liczbat8), mocRazyLiczbat8 ))
@@ -103,24 +106,32 @@ elif wybor == str('2'):
         jednostki()
 
     elif atak == str('2'):
-        print('atak procetowy')
+        print('atak procentowy')
         def atakprocent():
-            
-            stoprocent =100
-            t8procent = input('ile % t8: ')
-            print(stoprocent-int(t8procent))
-            t9procent = input('ile % t9: ')
-            print(stoprocent-int(t8procent)-int(t9procent))
-            t10procent = input('ile % t10: ')
-            print(stoprocent-int(t8procent)-int(t9procent)-int(t10procent))
-            t11procent = input('ile % t11: ')
-            procent_razem = t8procent+t9procent+t10procent+t11procent
-            if stoprocent != procent_razem:
-                print('nie masz 100%')
-                dalej = input('Kontynuowac t/n')
 
-                while dalej == ('t'):
-                    print('ok')
+            procent_razem = 0
+            stoprocent = 100
+            dalej = False
+
+            while stoprocent != procent_razem or dalej == True :
+                    t8procent = input('ile % t8: ')
+                    print(stoprocent-int(t8procent))
+                    t9procent = input('ile % t9: ')
+                    print(stoprocent-int(t8procent)-int(t9procent))
+                    t10procent = input('ile % t10: ')
+                    print(stoprocent-int(t8procent)-int(t9procent)-int(t10procent))
+                    t11procent = input('ile % t11: ')
+                    procent_razem = int(t8procent)+int(t9procent)+int(t10procent)+int(t11procent)
+                    print(procent_razem)
+                    if stoprocent != procent_razem:
+                        goon = input('dalej t/n: ')
+                        if goon == ('t'):
+                            dalej = True
+                        else:
+                            break
+            if goon == ('n'):
+                print('idziemy dalej')
+
 
 
 
@@ -128,4 +139,11 @@ elif wybor == str('2'):
 
         atakprocent()
 elif wybor == str('3'):
-    input('wyjscie-><-')
+    """
+ilePktSkrzynek=3600000
+oblezeniet8=24
+oblezeniet9=28
+oblezeniet10=33
+oblezeniet11=56
+
+"""
